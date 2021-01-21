@@ -1,0 +1,289 @@
+.section__form{
+    
+    
+    
+     margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    width: 60%;
+    vertical-align: baseline;
+    
+    
+    
+    
+  /* 
+    &__inputcontainer{
+        
+        
+        width: 100%;
+        display: flex;
+        
+        margin-bottom: 2rem;
+        
+        
+        
+        
+    }
+    
+    
+   
+    
+    &__left{
+        
+        
+        width: 26%;
+    text-align: right;
+    float: left;
+    padding-right: 15px;
+        padding: 10px 0;
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.6rem;    
+    }
+    
+    &__middle{
+        
+        
+        
+    width: 47%;
+    text-align: left;
+    float: left;
+        
+    }*/
+    
+    
+    
+    
+    &__input{
+        /*
+           border: 1px solid #DFDFDF;
+        //margin-left: 2rem;
+            margin-left: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    font-size:1.6rem;
+        background-color: rgb(255, 255, 255), rgb(59, 59, 59);*/
+        
+           
+        
+        
+        
+        &__skin{
+            
+             border: 1px solid #DFDFDF;
+        //margin-left: 2rem;
+            margin-left: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    font-size:1.6rem;
+        background-color: rgb(255, 255, 255), rgb(59, 59, 59);
+            pointer-events: all;
+            cursor: pointer;
+            
+             &::placeholder{
+                
+                
+                font-size:1.5rem;
+                color: #707070;
+                
+                }
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+    }
+   
+    
+    
+    
+    
+    /* &__heading{
+        
+        
+        //padding-right: 2rem;
+        display: flex;
+        font-size: 1.5rem;
+        align-items: center;
+        width: 10%;
+        
+    }*/
+    
+}
+
+
+
+.section__main{
+    
+    
+    &__form{
+        
+        
+        
+        &__row{
+            
+            
+             margin-bottom: 20px;
+    @include clearfix
+            
+        }
+        
+        
+        &__label{
+            
+            
+                 width: 26%;
+    text-align: right;
+    float: left;
+    padding-right: 15px;
+        padding: 10px 0;
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.6rem; 
+            
+            
+        }  
+        
+        
+        &__content{
+            
+             width: 47%;
+    text-align: left;
+    float: left;
+   
+            
+            
+        }
+        
+        
+        &__error{
+            
+            text-align: center;
+            color: red;
+            font-size: 1.4rem;
+            
+        }
+        
+        
+        &__select {
+            
+            
+             color: #707070;
+    font-weight: 400;
+    font-size: 1.6rem; 
+            
+            
+            option{
+           color: #707070;
+    font-weight: 400;
+    font-size: 1.6rem; 
+            
+            
+        }
+        }
+        
+    }
+
+    
+}
+
+
+
+.checkbox{
+    
+    
+   margin-left: 3rem;
+    
+    
+    &__label{
+        
+        font-size: 1.4rem;
+        color: #707070;
+        vertical-align:text-bottom;
+        
+    }
+    
+   /* &__label2{
+        
+        font-size: 1.2rem;
+        text-align: center;
+        
+        
+    }*/
+    
+    &__span{
+        
+        
+         color:  #27A7D4;
+        
+    }
+    
+    
+}
+
+
+.upload{
+                
+     padding: 1rem 2.5rem;
+    border: 0;
+     border-radius: 2px;
+     background-color: #1BBC9B;
+     margin-left:2rem;
+     color:#fff;
+    width: 165px;
+    height: 42px;
+        
+        
+        
+        
+        &__span{
+            
+            margin-left: 1rem;
+                font-size: 1.3rem;
+               
+            
+            }
+        
+        
+    &__link{
+        
+         text-decoration: none;
+              color: #27A7D4;
+                margin-left:1rem;
+                 font-size: 1.4rem;
+        
+        
+    }
+        
+                
+            }
+
+
+.textarea{
+    
+    resize: vertical;
+    
+}
+
+.regsiter_now{
+    
+    text-align: center;
+    &__bttn{
+        
+         padding: 1.6rem 3rem;
+                background-color:#27A7D4;
+                border: none;
+                border-radius: 3px;
+                width: 50%;
+        color: #fff;
+        
+        
+    }
+    
+    
+}
